@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>index</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+/* Inline cards with thumbnails (Coverage Areas) */
+.card.inline { display:flex; align-items:center; gap:14px; }
+.card.inline img.thumb {
+  width:56px; height:56px;
+  border-radius:8px;
+  object-fit:cover;
+  border:1px solid var(--border);
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="logo"><img src="assets/logo.png" alt="FWD FP logo"></div>
+    <nav>
+      <a href="index.html" class="active"><span lang="en">Home</span><span lang="zh-Hant">主頁</span></a>
+      <a href="about.html" class=""><span lang="en">About FWD FP</span><span lang="zh-Hant">關於 FWD FP</span></a>
+      <a href="partners.html" class=""><span lang="en">Partners &amp; Product Lines</span><span lang="zh-Hant">合作夥伴與產品線</span></a>
+      <a href="knowledge.html" class=""><span lang="en">Knowledge Centre</span><span lang="zh-Hant">知識中心</span></a>
+      <a href="join.html" class=""><span lang="en">Join Us</span><span lang="zh-Hant">加入我們</span></a>
+      <a class="btn hide-mobile" href="contact.html"><span lang="en">Contact Us</span><span lang="zh-Hant">聯絡我們</span></a>
+    </nav>
+    <div class="langswitch">
+      <button data-lang="en" class="active" aria-label="Switch to English">EN</button>
+      <button data-lang="zh" aria-label="切換至繁體中文">繁</button>
+    </div>
+  </div>
+</header>
+<section class="hero hero--with-banner">
+  <div class="hero__media"><img class="hero__img" src="assets/hero/home-banner-1600.jpg" alt=""></div>
+  <div class="container hero__content">
+    <h1><span lang="en">Your Trusted Financial Planning Partner</span><span lang="zh-Hant">您值得信賴的理財規劃夥伴</span></h1>
+    <p><span lang="en">Factual. Transparent. Client‑focused.</span><span lang="zh-Hant">資訊準確透明，以客為本。</span></p>
+    <a class="btn" href="contact.html"><span lang="en">Contact Us</span><span lang="zh-Hant">聯絡我們</span></a>
+    <a class="btn secondary" href="join.html" style="margin-left:8px;"><span lang="en">Join FWD FP</span><span lang="zh-Hant">加入 FWD FP</span></a>
+  </div>
+</section>
+<section class="section alt">
+  <div class="container">
+    <h2>
+      <span lang="en">What We Do</span>
+      <span lang="zh-Hant">我們的角色</span>
+    </h2>
+    <p class="list">
+      <span lang="en">
+We provide comprehensive, one-stop financial planning services covering insurance, investment, and retirement planning, helping our clients achieve long-term financial goals.
+<br/><br/>
+We are licensed by the Insurance Authority (IA), the Securities and Futures Commission (SFC), and the Mandatory Provident Fund Schemes Authority (MPFA).
+<br/><br/>
+We are a member of the FWD Group.
+      </span>
+      <span lang="zh-Hant">
+我們提供全面及專業的一站式理財策劃服務，涵蓋保險、投資及退休規劃，致力協助客戶實現長遠財務目標。<br/><br/>
+本公司持有保險業監管局（IA）、證券及期貨事務監察委員會（SFC）及強制性公積金計劃管理局（MPFA）牌照。<br/><br/>
+本公司為富衛（FWD）集團旗下成員。      </span>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>
+      <span lang="en">Our Coverage Areas</span>
+      <span lang="zh-Hant">服務範疇</span>
+    </h2>
+
+    <div class="grid cards">
+
+      <!-- Life Insurance -->
+      <div class="card inline">
+        <img class="thumb" src="assets/sections/coverage-life.svg" alt="" />
+        <div>
+          <h3><span lang="en">Life Insurance</span><span lang="zh-Hant">人壽保險</span></h3>
+          <a class="btn secondary" href="partners.html#life">
+            <span lang="en">Learn more</span><span lang="zh-Hant">了解更多</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- General Insurance -->
+      <div class="card inline">
+        <img class="thumb" src="assets/sections/coverage-gi.svg" alt="" />
+        <div>
+          <h3><span lang="en">General Insurance</span><span lang="zh-Hant">一般保險</span></h3>
+          <a class="btn secondary" href="partners.html#gi">
+            <span lang="en">Learn more</span><span lang="zh-Hant">了解更多</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- MPF -->
+      <div class="card inline">
+        <img class="thumb" src="assets/sections/coverage-mpf.svg" alt="" />
+        <div>
+          <h3><span lang="en">MPF</span><span lang="zh-Hant">強積金</span></h3>
+          <a class="btn secondary" href="partners.html#mpf">
+            <span lang="en">Learn more</span><span lang="zh-Hant">了解更多</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Investment Platform -->
+      <div class="card inline">
+        <img class="thumb" src="assets/sections/coverage-invest.svg" alt="" />
+        <div>
+          <h3><span lang="en">Investment Platform</span><span lang="zh-Hant">投資平台</span></h3>
+          <a class="btn secondary" href="partners.html#inv">
+            <span lang="en">Learn more</span><span lang="zh-Hant">了解更多</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container grid cards">
+    <div class="card">
+      <h3>
+        <span lang="en">Licensed & Regulated</span>
+        <span lang="zh-Hant">持牌及受監管</span>
+      </h3>
+      <p>
+        <span lang="en">
+          Licensed by the IA and SFC, and registered as an MPF intermediary in Hong Kong.
+        </span>
+        <span lang="zh-Hant">
+          本公司持有 IA 及 SFC 牌照，並為香港強積金（MPF）中介人。
+        </span>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>
+        <span lang="en">Independent Brokerage</span>
+        <span lang="zh-Hant">獨立經紀模式</span>
+      </h3>
+      <p>
+        <span lang="en">
+          We work with multiple product providers across different categories.
+        </span>
+        <span lang="zh-Hant">
+          與多家產品供應商合作，涵蓋不同產品類別。
+        </span>
+      </p>
+    </div>
+
+    <!-- <div class="card">
+      <h3>
+        <span lang="en">Factual & Transparent</span>
+        <span lang="zh-Hant">客觀透明</span>
+      </h3>
+      <p>
+        <span lang="en">
+          Information on this website is factual and for reference only.
+        </span>
+        <span lang="zh-Hant">
+          本網站所載內容為客觀資料，僅供參考。
+        </span>
+      </p>
+    </div> -->
+  </div>
+</section>
+
+<!-- <section class="section">
+  <div class="container">
+    <h2>
+      <span lang="en">Our Partners</span>
+      <span lang="zh-Hant">合作夥伴</span>
+    </h2>
+    <p class="small">
+      <span lang="en">Insurance companies, MPF trustees and investment platforms.</span>
+      <span lang="zh-Hant">保險公司、強積金受託人及投資平台。</span>
+    </p>
+    <a class="btn secondary" href="partners.html">
+      <span lang="en">View Partners</span>
+      <span lang="zh-Hant">查看夥伴</span>
+    </a>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <h2>
+      <span lang="en">Knowledge Centre</span>
+      <span lang="zh-Hant">知識中心</span>
+    </h2>
+    <p class="small">
+      <span lang="en">
+        Educational content and official references for better understanding.
+      </span>
+      <span lang="zh-Hant">
+        提供教育內容及官方資料以助理解。
+      </span>
+    </p>
+    <a class="btn secondary" href="knowledge.html">
+      <span lang="en">Go to Knowledge Centre</span>
+      <span lang="zh-Hant">前往知識中心</span>
+    </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="card">
+      <h3>
+        <span lang="en">Get in Touch</span>
+        <span lang="zh-Hant">與我們聯絡</span>
+      </h3>
+      <p>
+        <span lang="en">
+          Contact us for enquiries or learn more about joining FWD FP.
+        </span>
+        <span lang="zh-Hant">
+          歡迎查詢或了解加入富衛財務策劃。
+        </span>
+      </p>
+      <a class="btn" href="contact.html">
+        <span lang="en">Contact Us</span>
+        <span lang="zh-Hant">聯絡我們</span>
+      </a>
+      <a class="btn secondary" href="join.html" style="margin-left:8px;">
+        <span lang="en">Join Us</span>
+        <span lang="zh-Hant">加入我們</span>
+      </a>
+    </div>
+  </div>
+</section> -->
+
+
+<footer>
+  <div class="container foot">
+    <!-- Left column -->
+    <div>
+      <!-- Company name -->
+      <div>
+        <strong>FWD FP</strong> —
+        <span lang="en">Financial Planning Broker</span>
+        <span lang="zh-Hant">財務策劃保險經紀</span>
+      </div>
+
+      <!-- Service scope -->
+      <div class="small">
+        <span lang="en">Services intended for Hong Kong only.</span>
+        <span lang="zh-Hant">本網站服務只適用於香港。</span>
+      </div>
+
+      <!-- Licences -->
+      <div class="small" style="margin-top:8px">
+        <strong>
+          <span lang="en">Licences</span>
+          <span lang="zh-Hant">牌照</span>
+        </strong><br>
+
+        <span lang="en">Insurance Broker Company License No.: FB1177</span>
+        <span lang="zh-Hant">保險經紀公司牌照號碼：FB1177</span><br>
+
+        <span lang="en">SFC Licensed Corporation CE No.: AFG549</span>
+        <span lang="zh-Hant">證監會持牌法團中央編號：AFG549</span><br>
+
+        <span lang="en">Registered MPF Principal Intermediary Registration No.: IC000187</span>
+        <span lang="zh-Hant">強積金主事中介人註冊編號：IC000187</span>
+      </div>
+
+      <!-- Copyright -->
+      <div class="small" style="margin-top:8px">
+        <span lang="en">
+          Copyright 2026 FWD Financial Planning Limited. All rights reserved.
+        </span>
+        <span lang="zh-Hant">
+          © 2026 富衛財務策劃有限公司 版權所有 不得轉載
+        </span>
+      </div>
+    </div>
+
+    <!-- Right column: bottom-aligned links -->
+    <div class="small" style="align-self:flex-end; text-align:right;">
+      <a href="disclaimer.html">
+        <span lang="en">Disclaimer</span>
+        <span lang="zh-Hant">免責聲明</span>
+      </a>
+      &nbsp;•&nbsp;
+      <a href="sitemap.html">
+        <span lang="en">Sitemap</span>
+        <span lang="zh-Hant">網站地圖</span>
+      </a>
+    </div>
+  </div>
+</footer>
+<div class="modal" id="leave-modal"><div class="box">
+  <h3 id="leave-title">Leaving this website</h3>
+  <p><span lang="en">You're about to visit an external website:</span><span lang="zh-Hant">你即將前往外部網站：</span>
+     <span id="leave-url" class="small"></span>.
+     <span class="small" lang="en">Links are provided for reference only.</span>
+     <span class="small" lang="zh-Hant">此連結僅供參考。</span>
+  </p>
+  <div class="actions">
+    <button class="btn secondary" id="cancel-leave"><span lang="en">Stay</span><span lang="zh-Hant">留在本頁</span></button>
+    <button class="btn" id="confirm-leave"><span lang="en">Continue</span><span lang="zh-Hant">繼續</span></button>
+  </div>
+</div></div>
+<script src="assets/app.js"></script>
+</body></html>
