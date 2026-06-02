@@ -74,3 +74,41 @@ nav a.active{color:var(--brand-primary)}
   gap: 16px;
   margin-top: 24px;
 }
+
+/* Scam Alert Banner */
+ .scam-alert {
+    width: 100%;
+    background: #f5f1ea; /* light beige like your screenshot */
+    color: #333;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 10px 40px 10px 16px;
+    position: relative;
+    border-bottom: 1px solid #e5e7eb;
+    z-index: 1000;
+  }
+
+  .scam-alert strong {
+    font-weight: 600;
+  }
+
+  .scam-alert .close-btn {
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .scam-alert .close-btn:hover {
+    color: #000;
+  }
+
+  /* Optional: make text centered on large screens */
+  @media (min-width: 768px) {
+    .scam-alert {
+      text-align: center;
+      padding: 10px 60px;
+    }
+  }
