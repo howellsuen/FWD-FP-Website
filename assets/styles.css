@@ -56,7 +56,7 @@ nav a.active{color:var(--brand-primary)}
 .tabs{display:flex;gap:8px;border-bottom:1px solid var(--border);margin-top:8px}
 .tab{padding:10px 14px;border:1px solid var(--border);border-bottom:none;border-radius:8px 8px 0 0;background:#fff;color:var(--brand-ink);cursor:pointer}
 .tab.active{background:linear-gradient(90deg,var(--brand-primary),var(--brand-primary-2));color:#fff;border-color:transparent}
-.tabpanes{border:1px solid var(--border);border-radius:0 12px 12px 12px;padding:18px;background:#fff;margin-top:-1px}
+.tabpanes{border:1px solid var(--border);border-radius:0 12px 12px 12px;padding:18px;background:#fff;margin-top:-1px;margin-bottom: 28px;}
 .tabpane{display:none}
 .tabpane.active{display:block}
 
